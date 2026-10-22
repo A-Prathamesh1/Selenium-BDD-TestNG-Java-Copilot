@@ -1,6 +1,13 @@
 package com.example.hooks;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+import com.example.listeners.ExtentListener;
 import com.example.utils.DriverManager;
+import com.example.utils.ExtentReportManager;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
@@ -11,7 +18,6 @@ import io.cucumber.java.BeforeStep;
 public class Hooks {
     private final DriverManager driverManager;
 
-    
     public Hooks(DriverManager driverManager){
         this.driverManager = driverManager;
     }
@@ -24,7 +30,8 @@ public class Hooks {
     @Before
     public void beforeScenario() {
         System.out.println("Before scenario hook from BasicFormTest started");
-        driverManager.getDriver(); // driver initialized 
+        WebDriver driver = driverManager.getDriver();
+        ExtentReportManager.setBrowserInfo(driver);
     }
 
     @BeforeStep
@@ -39,7 +46,12 @@ public class Hooks {
     }
 
     @After
-    public void afterScenario() {
+    public void afterScenario(Scenario scenario) {
+        WebDriver driver = driverManager.getDriverIfCreated();
+        if (scenario.isFailed() && driver instanceof TakesScreenshot screenshotDriver) {
+            String screenshot = screenshotDriver.getScreenshotAs(OutputType.BASE64);
+            ExtentListener.attachFailureScreenshot(screenshot, scenario.getName());
+        }
         driverManager.quitDriver();
     }
 

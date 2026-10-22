@@ -15,6 +15,11 @@ public class DriverManager {
         }
         return threadLocalDriver.get();
     }
+
+    public WebDriver getDriverIfCreated() {
+        return threadLocalDriver.get();
+    }
+
     // quit driver
     public void quitDriver(){
         if(threadLocalDriver.get() != null){

@@ -6,14 +6,12 @@
       <class name="com.example.runners.RunCucumberTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="beforeMethod"/>
           <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="setUpBeforeTest"/>
-          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.example.runners.RunCucumberTest -->
     </classes>

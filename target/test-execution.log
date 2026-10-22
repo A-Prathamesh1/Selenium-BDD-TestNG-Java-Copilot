@@ -1,0 +1,548 @@
+Oct 22, 2026 5:12:06 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 5:12:06 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 5:12:07 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 5:12:08 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 5:12:08 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 5:12:08 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 5:47:48 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 5:47:48 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 5:47:50 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 5:47:51 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 5:47:51 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 5:47:51 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 5:49:36 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 5:49:36 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 5:49:37 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 5:49:38 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 5:49:38 PM com.example.utils.LogUtility logError
+SEVERE: TEST FAILED: runScenario
+Oct 22, 2026 5:49:38 PM com.example.utils.LogUtility logError
+SEVERE: Test exception details: runScenario
+java.lang.AssertionError: Form result message did not match the expected value. expected [Form submitted successfully!] but found [Form submitted successfully]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.example.step_definitions.BasicFormTests.the_form_submission_message_should_show(BasicFormTests.java:56)
+	at ✽.the form submission message should show "Form submitted successfully!"(file:///Volumes/Work/Workspace/java-selenium-bdd-testng/src/test/resources/features/basic_form.feature:7)
+
+Oct 22, 2026 5:49:39 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 8:21:11 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 8:21:11 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 8:21:14 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 8:21:14 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 8:21:14 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 8:21:14 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 8:21:15 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 8:21:15 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 8:21:15 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 8:21:15 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 8:21:15 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 8:21:15 PM com.example.utils.LogUtility logError
+SEVERE: TEST FAILED: runScenario
+Oct 22, 2026 8:21:15 PM com.example.utils.LogUtility logError
+SEVERE: Test exception details: runScenario
+java.lang.AssertionError: Form result message did not match the expected value. expected [Form submitted successfully!] but found [Form submitted successfully]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.example.step_definitions.BasicFormTests.the_form_submission_message_should_show(BasicFormTests.java:56)
+	at ✽.the form submission message should show "Form submitted successfully!"(file:///Volumes/Work/Workspace/java-selenium-bdd-testng/src/test/resources/features/basic_form.feature:7)
+
+Oct 22, 2026 8:21:15 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 8:28:22 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 8:28:22 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 8:28:23 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 8:28:24 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 8:28:24 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 8:28:24 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 8:32:21 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 8:32:21 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 8:32:22 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 8:32:22 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 8:32:23 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 8:32:23 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 8:32:23 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 8:33:53 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 8:33:53 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 8:33:55 PM com.example.utils.LogUtility logError
+SEVERE: TEST FAILED: runScenario
+Oct 22, 2026 8:33:55 PM com.example.utils.LogUtility logError
+SEVERE: Test exception details: runScenario
+java.lang.Error: Unresolved compilation problem: 
+	The method getCapabilities() is undefined for the type WebDriver
+
+	at com.example.utils.ExtentReportManager.setBrowserInfo(ExtentReportManager.java:51)
+	at com.example.hooks.Hooks.beforeScenario(Hooks.java:34)
+
+Oct 22, 2026 8:33:55 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 8:34:05 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 8:34:05 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 8:34:06 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 8:34:07 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 8:34:07 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 8:34:07 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 8:48:31 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 8:48:31 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 8:48:31 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 8:55:36 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 8:55:36 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 8:55:37 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 8:55:38 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 8:55:39 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 8:55:39 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 8:55:39 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 9:09:52 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 9:09:52 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 9:09:53 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 9:09:54 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 9:09:54 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 9:09:54 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 9:23:54 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 9:23:55 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 9:23:55 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 9:23:55 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 9:23:55 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 9:23:57 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 9:23:58 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 9:23:58 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 9:23:59 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 9:23:59 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 9:23:59 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 9:24:00 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 9:24:01 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 9:24:01 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 9:29:22 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 9:29:22 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 9:29:23 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 9:29:24 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 9:29:24 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 9:29:24 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 10:11:09 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 10:11:09 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 10:11:10 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 10:11:11 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 10:11:11 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 10:11:11 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
+Oct 22, 2026 10:24:15 PM com.example.utils.LogUtility logInfo
+INFO: TEST STARTED: Surefire test
+Oct 22, 2026 10:24:15 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 10:24:15 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 10:24:15 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 10:24:15 PM com.example.utils.LogUtility logInfo
+INFO: -------------TEST STARTED-------------: runScenario
+Oct 22, 2026 10:24:18 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 10:24:18 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 10:24:19 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 10:24:19 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 10:24:19 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 10:24:20 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Starting basic form test; opening application URL: https://www.sreenidhirajakrishnan.com/practice
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests user_is_on_the_site
+INFO: Application URL verification passed
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Name field entry completed
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Password field entry completed
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Email field entry completed
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Phone field entry completed
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests user_enters
+INFO: Bio field entry completed
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests submits_the_form
+INFO: Form submit button clicked
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Reading the form submission result message
+Oct 22, 2026 10:24:20 PM com.example.step_definitions.BasicFormTests the_form_submission_message_should_show
+INFO: Form submission result verification passed
+Oct 22, 2026 10:24:21 PM com.example.utils.LogUtility logInfo
+INFO: TEST PASSED: runScenario
+Oct 22, 2026 10:24:21 PM com.example.utils.LogUtility logInfo
+INFO: TEST FINISHED: Surefire test
