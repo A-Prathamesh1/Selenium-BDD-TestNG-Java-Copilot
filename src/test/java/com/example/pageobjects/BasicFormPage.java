@@ -2,45 +2,38 @@ package com.example.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class BasicFormPage extends BasePage {
 
-    @FindBy(id = "basic-form")
-    private WebElement form;
+    private final By form = By.id("basic-form");
 
-    @FindBy(id = "text-input")
-    private WebElement nameInput;
+    private final By nameInput = By.id("text-input");
 
-    @FindBy(id = "password-input")
-    private WebElement passwordInput;
+    private final By passwordInput = By.id("password-input");
 
-    @FindBy(id = "email-input")
-    private WebElement emailInput;
+    private final By emailInput = By.id("email-input");
 
-    @FindBy(id = "phone-input")
-    private WebElement phoneInput;
+    private final By phoneInput = By.id("phone-input");
 
-    @FindBy(id = "textarea-input")
-    private WebElement bioInput;
+    private final By bioInput = By.id("textarea-input");
 
-    @FindBy(id = "form-submit")
-    private WebElement submitButton;
+    private final By submitButton = By.id("form-submit");
 
-    @FindBy(id = "form-reset")
-    private WebElement resetButton;
+    private final By resetButton = By.id("form-reset");
 
-    @FindBy(css = "[data-testid='form-result']")
-    private WebElement resultMessage;
-
+    private final By resultMessage = By.cssSelector("[data-testid='form-result']");
+    //private DriverManager driverManager;
+    //private WebDriver driver = super.driver;//Manager.getDriver();
     public BasicFormPage(WebDriver driver) {
         super(driver);
+        //this.driver = driver;        
     }
 
     public void open(String url) {
         driver.get(url);
-        wait.until(ExpectedConditions.visibilityOf(form));
+        waitForVisible(form);
     }
 
     public void enterName(String name) {
@@ -93,7 +86,11 @@ public class BasicFormPage extends BasePage {
         return waitForVisible(resultMessage).getText().trim();
     }
 
-    public WebElement waitForVisible(WebElement element) {
-        return wait.until(ExpectedConditions.visibilityOf(element));
+    public WebElement waitForVisible(By locator) {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    public String getURL(){
+        return driver.getCurrentUrl();
     }
 }

@@ -1,7 +1,7 @@
 Feature: Basic practice form submission
 
   Scenario Outline: Submit the basic form with multiple valid data sets
-    Given user opens the basic form page
+    Given user is on the "https://www.sreenidhirajakrishnan.com/practice" site
     When user enters "<name>", "<password>", "<email>", "<phone>", and "<bio>"
     And submits the form
     Then the form submission message should show "Form submitted successfully"
